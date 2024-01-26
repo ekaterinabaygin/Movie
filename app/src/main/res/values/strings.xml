@@ -4,4 +4,5 @@
     <string name="main">main</string>
     <string name="favorites">favorites</string>
     <string name="poster_image">poster</string>
+    <string name="movies_error_title">Error while loading</string>
 </resources>
