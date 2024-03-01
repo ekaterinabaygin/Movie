@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Movie</string>
+
+    <string name="tab_discovery">Discovery</string>
+    <string name="tab_favourites">Favorites</string>
+
+    <string name="movies_error_title">Error while loading</string>
+    <string name="movies_error_action">Reload</string>
+    <string name="movies_favorite_error_title">Movies Error</string>
 </resources>

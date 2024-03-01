@@ -1,3 +1,8 @@
+rootProject.name = "Movie"
+include(":app")
+include(":domain")
+include(":data")
+
 pluginManagement {
     repositories {
         google()
@@ -5,6 +10,7 @@ pluginManagement {
         gradlePluginPortal()
     }
 }
+
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
@@ -12,6 +18,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-
-rootProject.name = "Movie"
-include(":app")
+include(":domain")
+include(":data")
